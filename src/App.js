@@ -7,8 +7,11 @@ export default class FetchChallengeData extends React.Component {
     loading: true
   };
 
-  componentDidMount() {
-
+  async componentDidMount() {
+    const url = "https://api.nebullam.com/challengeData";
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(data.results);
   }
   render(){
     return (
