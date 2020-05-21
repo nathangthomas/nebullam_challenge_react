@@ -37,3 +37,30 @@
     transform: rotate(-360deg);
   }
 }
+
+.Servo-card {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Servo-title {
+  color: #777;
+  padding-top: 20px;
+  padding-botttom: 40px;
+}
+
+.Title {
+  color: #777;
+  font-weight: Bold;
+}
+
+.Subtitle {
+  color: #777;
+}
+
+.Text {
+  color: #777;
+}
